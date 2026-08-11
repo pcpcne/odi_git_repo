@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.20" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="9LT7AYIOmvTYQCinvnN0AA==" exportKeySalt="5dde7fe8-7a27-45c1-a0e7-ebe67dd3eb5b" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="B/SG0nk7PUDtqc6hZsAOCA==" exportKeySalt="88fa14cf-b54e-43c0-9928-09276d962a6d" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTechno">
 		<Field name="CatalogTerm" type="java.lang.String">null</Field>
 	<Field name="ColAliasWord" type="java.lang.String"><![CDATA[AS]]></Field>
@@ -36,7 +36,7 @@
 	<Field name="GetSeqRequest" type="java.lang.String"><![CDATA[select %SCHEMA.%OBJECT.nextval from dual]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[e9120718-5b1e-3e9c-b3b9-28317b288494]]></Field>
 	<Field name="IndCatalog" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IndDserver" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndFileParam" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndJoinCapMixed" type="java.lang.String"><![CDATA[0]]></Field>
@@ -4088,15 +4088,6 @@ respect to a given sorting specification.]]></Field>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
 		<Field name="Expr1" type="java.lang.String">null</Field>
 	<Field name="Expr2" type="java.lang.String">null</Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[707fed57-be6f-4c59-b3a0-cae5d3bbb5ab]]></Field>
-	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[34]]></Field>
-	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
-	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[930]]></Field>
-	<Field name="TargDtCond" type="java.lang.String">null</Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
-		<Field name="Expr1" type="java.lang.String">null</Field>
-	<Field name="Expr2" type="java.lang.String">null</Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[08e4277f-1d03-34c4-b24c-2bbf2b654428]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[172]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
@@ -4416,6 +4407,15 @@ respect to a given sorting specification.]]></Field>
 	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[10]]></Field>
 	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
 	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[898]]></Field>
+	<Field name="TargDtCond" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
+		<Field name="Expr1" type="java.lang.String">null</Field>
+	<Field name="Expr2" type="java.lang.String">null</Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[707fed57-be6f-4c59-b3a0-cae5d3bbb5ab]]></Field>
+	<Field name="ITargTechno" type="com.sunopsis.sql.DbInt"><![CDATA[34]]></Field>
+	<Field name="SrcDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
+	<Field name="TargDt" type="com.sunopsis.sql.DbInt"><![CDATA[930]]></Field>
 	<Field name="TargDtCond" type="java.lang.String">null</Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpConvDt">
@@ -31733,6 +31733,14 @@ respect to a given sorting specification.]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[ad1fce608247256df77b906fedb2751f9f993ee2]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_LS_SRC_ORACLE.xml]]></Field>
 </Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpLschema]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[LS_TRGT_ORACLE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bfb1e041-91de-4ce4-b45d-d8816c7aaac5]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[ebd3be37bd6c0caffaef69e5fc71ad7031a6eecb]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_LS_TRGT_ORACLE.xml]]></Field>
+</Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MTXT.203]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[c09e2b85-2fbe-34c4-9c9b-5f08d35aa23d]]></Field>
@@ -34562,20 +34570,6 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[10.7]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.34]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[483dd189-4347-409d-9840-f73f58ded4ab]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HDFS]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
-		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.930]]></Field>
-	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[a8a02dd1-174e-4c41-b858-431f6388f6c5]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HDFS.number]]></Field>
- <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4.6]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.172]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[7ffd3917-2b27-35a3-96a7-3bde26098531]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[XML]]></Field>
@@ -35078,6 +35072,20 @@ respect to a given sorting specification.]]></Field>
  <Field name="RefObjFQName" type="java.lang.String"><![CDATA[Cassandra.decimal]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
  <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[9.7]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.34]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[483dd189-4347-409d-9840-f73f58ded4ab]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HDFS]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.930]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[a8a02dd1-174e-4c41-b858-431f6388f6c5]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[HDFS.number]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_TECHNO.SNP_DT]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[4.6]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_DT.114]]></Field>
