@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.20" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="jsQB40YpHYI9AcLYgGQjwQ==" exportKeySalt="afc100c1-e741-405b-a0dc-29be62411a68" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="NQWk4wxfB56J4SqXkfaInQ==" exportKeySalt="7e2ae7b2-3753-4758-8abd-6d014db87c0a" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpConnect">
 		<Field name="AuthenMethod" type="java.lang.String">null</Field>
 	<Field name="BatchUpdateSize" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
@@ -20,7 +20,7 @@
 	<Field name="HiveMsUri" type="java.lang.String">null</Field>
 	<Field name="IdentityDomainName" type="java.lang.String">null</Field>
 	<Field name="IndJndi" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
 	<Field name="IConnect" type="com.sunopsis.sql.DbInt"><![CDATA[17]]></Field>
 	<Field name="IHost" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[100]]></Field>
@@ -37,7 +37,7 @@
 	<Field name="JndiPwd" type="java.lang.String">null</Field>
 	<Field name="JndiRessource" type="java.lang.String"><![CDATA[/dataload/v1]]></Field>
 	<Field name="JndiUser" type="java.lang.String">null</Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2026-02-18 20:29:24.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2026-08-12 00:32:55.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="OggInstallPath" type="java.lang.String">null</Field>
 	<Field name="OnConApplyCond" type="java.lang.String">null</Field>
