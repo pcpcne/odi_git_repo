@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OdiGitTagInfo>
+   <ParamMap>
+      <param value="/Work Repository/Models/ods/Global/TAB_EMPLOYEES_ODS_GITDEMO.xml"/>
+      <param value="/Work Repository/Projects/PRJ_TEST/PROJ_PRJ_TEST.xml"/>
+      <param value="/Work Repository/Projects/PRJ_TEST/First_Folder/FOLD_First_Folder.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Development.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Physical Architecture/DS_TESTSRV1/PSC_DS_TESTSRV1_ODS.xml"/>
+      <param value="/Work Repository/Models/ods/Global/SMOD_Global.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Logical Architecture/LSC_LS_SRC_ORACLE.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Global.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/TECH_Oracle.xml"/>
+      <param value="/Work Repository/Projects/PRJ_TEST/First_Folder/Mappings/MAP_MP_GITDEMO_EMPLOYEE.xml"/>
+      <param value="/Work Repository/Projects/PRJ_TEST/First_Folder/Mappings/MAP_MP_GITDEMO_DEPARTMENT.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Production.xml"/>
+      <param value="/Master Repository/Contexts/CONT_Test.xml"/>
+      <param value="/Master Repository/Languages/LANG_SQL.xml"/>
+      <param value="/Master Repository/Technologies/Oracle/Physical Architecture/DS_TESTSRV1/CONN_DS_TESTSRV1.xml"/>
+      <param value="/Work Repository/Models/ods/MOD_ods.xml"/>
+      <param value="/Work Repository/Models/ods/Global/TAB_DEPARTMENTS_KDS_GITDEMO.xml"/>
+      <param value="/Work Repository/Models/ods/Global/TAB_DEPARTMENTS_ODS_GITDEMO.xml"/>
+      <param value="/Work Repository/Models/ods/Global/TAB_EMPLOYEES_KDS_GITDEMO.xml"/>
+   </ParamMap>
+</OdiGitTagInfo>
