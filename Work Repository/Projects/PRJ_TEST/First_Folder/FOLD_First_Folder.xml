@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.20" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="g4ql+2usVz71B3omML6jtQ==" exportKeySalt="b6233edc-2bb9-43df-94e9-491537c6c4f0" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="V+a5CgkkpG0o6ey3AJVcLw==" exportKeySalt="c486359d-fcd4-4fac-a2fc-04ffd9be46bb" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpFolder">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2026-02-02 20:32:13.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="FolderName" type="java.lang.String"><![CDATA[First Folder]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[b95eff12-ce0b-4eaf-9cfe-2ab5468ee92d]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[4]]></Field>
 	<Field name="IFolder" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
@@ -26,6 +26,14 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[d8f68c58-8b8d-44ba-b3bd-90efcf1eac32]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[381933e6a4bbdbc135b27977507915c746990786]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Mappings/MAP_TEST_MAPPING.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpMapping]]></Field>
+	<Field name="SubType" type="java.lang.String"><![CDATA[N]]></Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[MP_GITDEMO_EMPLOYEE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bff9342f-81a8-4aba-99a3-aaae7f8ac3b7]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[bc5116e48cd173b427f6f8a9e0b505d86fa4e981]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Mappings/MAP_MP_GITDEMO_EMPLOYEE.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
 		<Field name="Type" type="java.lang.String"><![CDATA[SnpMapping]]></Field>
